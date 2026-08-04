@@ -92,3 +92,7 @@ $(call inherit-product, device/oneplus/sm8650-common/common.mk)
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/oneplus/giuliac/giuliac-vendor.mk)
+
+# Remove Packages
+PRODUCT_PACKAGES_REMOVE += \
+    Aperture
